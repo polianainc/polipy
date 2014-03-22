@@ -27,3 +27,4 @@ class TestIndividualContributions(TestCase):
 
         df = select_dataframe("SELECT contrib_id, bioguide_id, transaction_dt, zip, type, amount, l.gender, birthday, religion, real_code FROM entities.legislators l JOIN crp.individual_contributions i ON recip_id = opensecrets_id WHERE transaction_ts > 1375590539")
         print df
+
