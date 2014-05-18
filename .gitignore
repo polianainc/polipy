@@ -1,1 +1,5 @@
+.idea/
 env/
+*.pyc
+images/
+*.DS_Store
